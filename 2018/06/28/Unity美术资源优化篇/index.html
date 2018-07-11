@@ -6,18 +6,20 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Archives | 锦瑟年华</title>
+  <title>Unity美术资源优化篇 | 锦瑟年华</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="学习总结 思考感悟 知识管理">
-<meta property="og:type" content="website">
-<meta property="og:title" content="锦瑟年华">
-<meta property="og:url" content="http://yoursite.com/archives/index.html">
+  <meta name="description" content="借鉴学习和总结一下自己在项目制作和以后需要注意美术资源优化 参考文章    : http://gad.qq.com/article/detail/32886  一、同屏视野内的顶点数量和面数的控制 在主流移动平台（如 骁龙835芯片手机和 IPhone7）同屏面数30万左右运行还算流畅。在游戏制作中为了满足在多数移动手机中流畅运行，纯美术场景面数控制在 6万面以内。游戏运行同屏面数控制在10万面">
+<meta name="keywords" content="unity 资源篇">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Unity美术资源优化篇">
+<meta property="og:url" content="http://yoursite.com/2018/06/28/Unity美术资源优化篇/index.html">
 <meta property="og:site_name" content="锦瑟年华">
-<meta property="og:description" content="学习总结 思考感悟 知识管理">
+<meta property="og:description" content="借鉴学习和总结一下自己在项目制作和以后需要注意美术资源优化 参考文章    : http://gad.qq.com/article/detail/32886  一、同屏视野内的顶点数量和面数的控制 在主流移动平台（如 骁龙835芯片手机和 IPhone7）同屏面数30万左右运行还算流畅。在游戏制作中为了满足在多数移动手机中流畅运行，纯美术场景面数控制在 6万面以内。游戏运行同屏面数控制在10万面">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2018-07-11T12:55:06.231Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="锦瑟年华">
-<meta name="twitter:description" content="学习总结 思考感悟 知识管理">
+<meta name="twitter:title" content="Unity美术资源优化篇">
+<meta name="twitter:description" content="借鉴学习和总结一下自己在项目制作和以后需要注意美术资源优化 参考文章    : http://gad.qq.com/article/detail/32886  一、同屏视野内的顶点数量和面数的控制 在主流移动平台（如 骁龙835芯片手机和 IPhone7）同屏面数30万左右运行还算流畅。在游戏制作中为了满足在多数移动手机中流畅运行，纯美术场景面数控制在 6万面以内。游戏运行同屏面数控制在10万面">
   
     <link rel="alternative" href="/atom.xml" title="锦瑟年华" type="application/atom+xml">
   
@@ -157,63 +159,127 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-Unity美术资源优化篇" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2018" class="archive-year">2018</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2018/07/11/Unity-SourceFormat/" class="archive-article-date">
-  	<time datetime="2018-07-11T11:53:11.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-07-11</time>
-</a>
-        </div>
-    	 
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/07/11/Unity-SourceFormat/">Unity-SourceFormat</a>
+    <h1 class="article-title" itemprop="name">
+      Unity美术资源优化篇
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2018/06/28/Unity美术资源优化篇/" class="archive-article-date">
+        
+        <a href="/2018/06/28/Unity美术资源优化篇/" class="archive-article-date">
   	<time datetime="2018-06-28T12:40:52.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-06-28</time>
 </a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/06/28/Unity美术资源优化篇/">Unity美术资源优化篇</a>
-    </h1>
-  
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <ul>
+<li>借鉴学习和总结一下自己在项目制作和以后需要注意美术资源优化</li>
+<li>参考文章    : <a href="http://gad.qq.com/article/detail/32886" target="_blank" rel="noopener">http://gad.qq.com/article/detail/32886</a></li>
+</ul>
+<h3 id="一、同屏视野内的顶点数量和面数的控制"><a href="#一、同屏视野内的顶点数量和面数的控制" class="headerlink" title="一、同屏视野内的顶点数量和面数的控制"></a>一、同屏视野内的顶点数量和面数的控制</h3><blockquote>
+<p>在主流移动平台（如 骁龙835芯片手机和 IPhone7）同屏面数30万左右运行还算流畅。<br>在游戏制作中为了满足在多数移动手机中流畅运行，纯美术场景面数控制在 <b>6</b>万面以内。游戏运行同屏面数控制在10万面以内。</p>
+</blockquote>
+<blockquote>
+<p>在 Unity Game窗口 States中可以查看当前视野内的渲染信息。</p>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>Tris 表示的当前视野内渲染的面数；</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>Batches: 多少次批次渲染，可以将它等同于 DrawCall操作</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>Saved By Batching: 由于合批操作减少的 Drawcall，可以间接看做场景的优化效果,它是由静态合批 + 动态合批 操作。</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>高端机型尽量控制DrawCall 在 300以内</p>
+</blockquote>
+<h3 id="二、模型"><a href="#二、模型" class="headerlink" title="二、模型"></a>二、模型</h3><blockquote>
+<p>减面：去掉对模型造型没有影响的面，用尽可能少的面数表达清楚模型的结构和造型，可以美术童鞋在美术编辑器中手动去除(这是最能保证模型效果的方法)，也可以借助减面工具 如 Cruncher 来处理模型(减的太过会严重失真)</p>
+</blockquote>
+<blockquote>
+<p>模型合并：合并场景中 <b>材质相同</b>、<b>距离较近&lt;\b&gt;的模型，将它们合并成一个模型，同时将贴图合并成一张大的贴图，贴图尺寸不超 1024。材质合并可以有效减少 DrawCall .</b></p>
+</blockquote>
+<blockquote>
+<p>LOD: 复杂的场景物体可以采用 Lod 来减少同屏的面数，适合大场景。</p>
+</blockquote>
+<blockquote>
+<p>模型复用: 美术同学在制作场景前可以将模型做成 prefab，也可以由程序通过脚本在模型资源导入时在指定的目录中生成对应的 prefab。相同的物体使用prefab复制，可以通过引擎优化内存，但也只是少量的复制，当复制数量过多时，大量的顶点会开销大量的内存。</p>
+</blockquote>
+<blockquote>
+<p>地形优化: 使用 T4m等插件，尽量不要直接使用 Terrain地形，可以借助其他插件将 Terrain转成 T4m或是其他。可以有效减少地形的面数和顶点数量</p>
+</blockquote>
+<h3 id="三、贴图材质"><a href="#三、贴图材质" class="headerlink" title="三、贴图材质"></a>三、贴图材质</h3><blockquote>
+<p>贴图大小：控制在 1024 和 512以内，游戏中的贴图应尽量以 1024 和512尺寸的为主。美术同学出图一定要尺寸为2的幂次，且正方形哦</p>
+</blockquote>
+<blockquote>
+<p>贴图合并：将小物件模型的贴图合并</p>
+</blockquote>
+<blockquote>
+<p>模型贴图数量：模型贴图尽量一个模型只使用一张贴图，相同贴图的材质球统一</p>
+</blockquote>
+<blockquote>
+<p>PBR材质的使用限制：适合于小场景，且PBR只有在实时光环境下才有效果。大场景避免使用 PBR材质，且大场景尽可能使用烘焙光影达到光照效果。且烘焙场景中的物体不需要法线效果，因为烘焙完就没有法线效果啦</p>
+</blockquote>
+<blockquote>
+<p>贴图压缩 ：Andriod使用 ETC/ETC2 ，IOS使用 PVRT格式。建立不压缩目录，放置一些不适合压缩的图片</p>
+</blockquote>
+<blockquote>
+<p>场景材质使用 substance材质。Substance材质可以大大压缩贴图数据的大小但不损失贴图质量。</p>
+</blockquote>
+<blockquote>
+<p>减少透明贴图的使用，透明贴图非常消耗GPU，而且会在成 较高的 OverDraw,所以能少用就少用。比如一些小粒子特效贴图，就可以使用不太透明通道的贴图。</p>
+</blockquote>
+<hr>
+<hr>
+<h2 id="合理的资源目录结构很重要"><a href="#合理的资源目录结构很重要" class="headerlink" title="合理的资源目录结构很重要"></a>合理的资源目录结构很重要</h2><blockquote>
+<p>合理的划分归类美术资源非常重要，具体怎么划分可以根据项目需求和个人的项目经验来。</p>
+</blockquote>
+<blockquote>
+<p>在资源优化中常用的手段就是批处理，批处理模型，批处理图片等。这时合理的目录规范就可以很好的使用批处理啦。</p>
+</blockquote>
 
-        <div class="article-info info-on-right">
-          
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
@@ -225,46 +291,115 @@
 		</ul>
 	</div>
 
-          
+      
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2018/06/28/Unity美术资源优化篇/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2018/06/28/jinsefirst-blog/" class="archive-article-date">
-  	<time datetime="2018-06-28T12:40:52.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-06-28</time>
-</a>
+<nav id="article-nav">
+  
+    <a href="/2018/07/11/Unity-SourceFormat/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          Unity-SourceFormat
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2018/06/28/jinsefirst-blog/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">锦瑟的第一篇文章</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
+        
+        
+    </div>
+</aside>
+
+
+
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/06/28/jinsefirst-blog/">锦瑟的第一篇文章</a>
-    </h1>
+  
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
   
 
-    
+  
+
+  
 
 
           </div>
@@ -287,8 +422,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
